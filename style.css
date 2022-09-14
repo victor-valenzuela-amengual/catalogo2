@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(61, 47, 47);
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 30px;
+    color: black;
+}
+
+header{
+    padding: 20px;
+    background-image: url("imag/siora.jpg") ;
+    background-position: center;
+    background-size: cover;
+}
+/*.titleHeader{
+    text-align: center;
+}*/
+
+.productCard{
+    margin: 20px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.productImage{
+    width: 250px;
+    margin: 0 0 0 auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+p{
+    margin: auto auto auto 20px;
+}
+
+footer{
+    /*padding: 20%;
+    margin: 100 0 0 0;*/
+    text-align: center;
+    background-color: rgb(100 100 97 / 65%);
+}
